@@ -1,46 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">  
+    <title>H.Carvalho - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Comentário: Tudo que aparece
-     na tela está Body -->
+    <!-- HEADER/NAVBAR -->
     <header>
-        
-        <label class="logo" for="">MPS</label>
-        <nav>
-            <ol>
-                <li><a href="https://www.google.com">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
-            </ol>
-        </nav>
+        <div class="container">
+            <label class="logo" for="">H.Carvalho</label>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="sec1">
-        <h1>Meu primeiro site</h1>
-        <p>Estou aprendendo<br>HTML</p>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Bem-vindo ao meu Portfólio</h1>
+                <p class="subtitle">Desenvolvedor | Criador | Inovador</p>
+                <p class="hero-description">
+                    Graduado em Direito, com experiência em Administração Hospitalar e informática voltado ao SUS.
+                                </p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">Ver Meus Projetos</a>
+                    <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./img/foto.jpg" alt="Foto de perfil" class="profile-img">
+            </div>
+        </div>
     </section>
-<hr>
-    <section class="sec2">
-        <h1>Seção 2</h1>
-        <p>SEÇÃO 2<br>HTML</p>
-        <br>
-        <img src="./img/logo.jpg" alt="Foto logo linux" width="200px">
+
+    <!-- SOBRE SEÇÃO -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Desenvolvimento de Projetos ligados a área da saúde, com foco em soluções digitais que otimizam processos e melhoram a experiência do usuário.
+                    
+                    </p>
+                    <p>
+                        Foco em captação de recursos, gestão de projetos e desenvolvimento de sistemas voltados para a área da saúde.
+                    
+                    </p>
+                    <p>
+                        Acredito que a tecnologia deve ser acessível, funcional e bonita. Isso me motiva a buscar 
+                        constantemente novos conhecimentos e melhores práticas.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projetos Concluídos</p>
+                    </div>
+                    <div class="stat">
+                        <h3>29+</h3>
+                        <p>anos de Experiência</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Dedicação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-<hr>
-    <section class="sec3">
-        <h1>Seção 3</h1>
-        <p>Estou aprendendo<br>HTML</p>
+
+    <!-- HABILIDADES SEÇÃO -->
+    <section class="skills" id="habilidades">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Gestão Administrativa</h3>
+                    <p> </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Gestão Financeira</h3>
+                    <p></p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Desenvolvimento de Software</h3>
+                    <p></p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Ferramentas</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
     </section>
-<footer>
-    <p>&copy; 2026 Meu Site. Todos os direitos reservados.</p>
-</footer>
+
+    <!-- PROJETOS SEÇÃO -->
+    <section class="projects" id="projetos">
+        <div class="container">
+            <h2 class="section-title">Projetos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Projeto ZERO UM</h3>
+                        <span class="project-tag">Frontend</span>
+                    </div>
+                    <p>
+                        Um projeto revolucionário que marca o início de uma nova era em desenvolvimento web. 
+                        Integração de modernas tecnologias com design responsivo.
+                    </p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Sistema de Gestão de Dados</h3>
+                        <span class="project-tag">Full Stack</span>
+                    </div>
+                    <p>
+                        Aplicação completa para gestão e análise de dados com interface intuitiva 
+                        e backend robusto para processamento eficiente.
+                    </p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ERP Gestão de Saúde</h3>
+                        <span class="project-tag">Implantação</span>
+                    </div>
+                    <p>
+                        Plataforma de Gestão Hospitalar com design moderno, 
+                        integração com SUS, CADWEB, RDS e autenticação segura.
+                    </p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Tailwind</span>
+                        <span>API REST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO SEÇÃO -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2 class="section-title">Vamos Trabalhar Juntos?</h2>
+            <p class="contact-subtitle">
+                Estou aberto a novas oportunidades, projetos interessantes e colaborações. 
+                Sinta-se à vontade para entrar em contato comigo!
+            </p>
+            <div class="contact-methods">
+                <a href="mailto:helder02@gmail.com" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>helder02@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/hcarvalho15/" class="contact-card" target="_blank">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>Conecte-se comigo</p>
+                </a>
+                <a href="https://github.com/hcarvalho2026/project1" class="contact-card" target="_blank">
+                    <div class="contact-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <p>Veja meus repositórios</p>
+                </a>
+            </div>
+            <form class="contact-form" action="mailto:helder02@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <input type="text" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>H.Carvalho</h4>
+                    <p>Desenvolvedor Full Stack criando soluções digitais inovadoras.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <ul>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:helder02@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 H.Carvalho. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
